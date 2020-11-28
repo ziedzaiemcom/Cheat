@@ -2,7 +2,7 @@
 
 Cheatsheets web viewer. Designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
 
-<img src="https://raw.githubusercontent.com/ziedzaiem/Cheat/master/assets/preview.png" width="300" alt="preview.png" />
+<img src="https://raw.githubusercontent.com/ziedzaiem/Cheat/main/assets/preview.png" width="300" alt="preview.png" />
 
 
 ## Run
