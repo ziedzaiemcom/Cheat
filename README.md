@@ -4,6 +4,16 @@ Cheatsheets web viewer. Designed to help remind *nix system administrators of op
 
 <img src="https://raw.githubusercontent.com/ziedzaiem/Cheat/main/assets/preview.png" width="300" alt="preview.png" />
 
+## Submodule
+
+```
+git submodule update --init --recursive
+
+git submodule update --recursive --remote
+
+```
+
+[Source](https://stackoverflow.com/questions/1030169/pull-latest-changes-for-all-git-submodules)
 
 ## Run
 
