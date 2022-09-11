@@ -26,6 +26,27 @@ Python 3.x
 $ python -m http.server 8000
 ```
 
+## Docker
+
+- Docker Hub : https://hub.docker.com/r/ziedzaiemcom/cheat
+
+You can use [Dive](https://github.com/wagoodman/dive) to inspect Docker image contents.
+
+### Run
+
+```
+docker compose build
+docker compose up -d
+```
+
+### Push to Docker Hub
+
+```
+docker tag cheat-cheat:latest ziedzaiemcom/cheat:0.0.1
+docker login -u ziedzaiemcom
+docker push ziedzaiemcom/cheat:0.0.1
+```
+
 ## Credits
 
 Inspired from [cheat](https://github.com/cheat/cheat). Uses community-sourced cheatsheets provided by [cheatsheets](https://github.com/cheat/cheatsheets)
