@@ -44,10 +44,20 @@ docker compose up -d
 ### Push to Docker Hub
 
 ```
-docker tag cheat-cheat:latest ziedzaiemcom/cheat:0.0.1
+docker tag cheat-cheat:latest ziedzaiemcom/cheat:0.0.2
 docker login -u ziedzaiemcom
-docker push ziedzaiemcom/cheat:0.0.1
+docker push ziedzaiemcom/cheat:0.0.2
 ```
+
+### Pull From Docker Hub
+
+```
+docker pull ziedzaiemcom/cheat:0.0.Z
+
+```
+
+Exposed Ports  :
+- 80
 
 ## Credits
 
